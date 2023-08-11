@@ -26,7 +26,3 @@ var lightbox = new SimpleLightbox('.gallery a', {
     captionDelay: 250
 });
 
-galleryContainer.addEventListener('click', handlerClick);
-function handlerClick(evt) {
-    evt.preventDefault();
-}
